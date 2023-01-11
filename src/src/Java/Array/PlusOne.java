@@ -19,7 +19,7 @@ public class PlusOne {
        int a[] = {1,2,9};
         int result[] = plusOne(a);
         for(int i=0; i< result.length;i++) {
-            System.out.println(result);
+            System.out.println(result[i]);
         }
     }
 }
