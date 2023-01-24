@@ -10,7 +10,7 @@ public class NoOfPositiveAndNegativeIntegers
                 poscount++;
             }
             else if(nums[i] < 0){
-                negcount++;
+                negcount++; 
             }
         }
         if(poscount>negcount){
