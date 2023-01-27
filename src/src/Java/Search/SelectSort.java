@@ -1,5 +1,4 @@
 package Java.Search;
-
 public class SelectSort {
     public static void main(String[] args) {
         int[] a = {50, 25, 100, 3, 39};
@@ -7,7 +6,6 @@ public class SelectSort {
         for (int i = 0; i < result.length; i++) {
             System.out.println(result[i]);
         }
-
     }
 
     public static int[] selectSort(int[] nums) {
