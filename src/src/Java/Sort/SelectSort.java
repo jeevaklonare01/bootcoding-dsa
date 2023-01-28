@@ -1,4 +1,4 @@
-package Java.Search;
+package Java.Sort;
 public class SelectSort {
     public static void main(String[] args) {
         int[] a = {50, 25, 100, 3, 39};

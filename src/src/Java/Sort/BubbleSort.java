@@ -1,4 +1,4 @@
-package Java.Search;
+package Java.Sort;
 
 public class BubbleSort {
     public static void main(String[] args) {
