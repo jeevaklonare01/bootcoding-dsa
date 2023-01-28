@@ -2,16 +2,20 @@ package Java.Search;
 
 public class kthMissPosNum {
     public static void main(String[] args) {
+        int a[] = {1,2,3,4,5,6};
+        int k = 7;
+        int index = findKthPositive(a,k);
+        System.out.println(k+" is found at : "+index);
 
     }
-    public int findKthPositive(int[] A, int x, int left, int right) {
-         right= A.length, ;
-        while (l < r) {
-            m = (l + r) / 2;
-            if (A[m] - 1 - m < k)
-                l = m + 1;
-            else
-                r = m;
+    public static int findKthPositive(int [] a, int k){
+        int j=0;
+
+        for(int i:a){
+            if(i<=k) k++;
+            else break;
         }
-        return l + k;
+        return k;
     }
+}
+
