@@ -1,4 +1,4 @@
-package Java.Tree.BinaryTree;
+package Java.Tree;
 
 public class BinaryTree {
     Node root;
