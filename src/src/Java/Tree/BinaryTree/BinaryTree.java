@@ -1,11 +1,12 @@
 package Java.Tree.BinaryTree;
 
-public class InOrderBT {
+public class BinaryTree {
     Node root;
 
-    InOrderBT() {
+    BinaryTree() {
         root = null;
     }
+
     public static void postOrder(Node node) {
         if (node == null)
             return;
@@ -29,7 +30,7 @@ public class InOrderBT {
         inOrder(node.right);
     }
     private static Node createTree() {
-        InOrderBT tree = new InOrderBT();
+        BinaryTree tree = new BinaryTree();
         tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);
